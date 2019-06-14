@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="244cc1f3-153b-49c4-8c11-39feb57f1ae7" solutionId="244cc1f3-153b-49c4-8c11-39feb57f1ae7" resetWebServer="false" sharePointProductVersion="16.0" name="CaseStudyBrandingStyle" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ea6c3f3a-278c-480a-8138-ad4412cc5ba2" />
+  </features>
+</package>

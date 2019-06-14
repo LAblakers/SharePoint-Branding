@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MP" Url="_catalogs/masterpage" >
+    <File Url="Starter Team.master" Type="GhostableInLibrary" Path="MasterPage\Starter Team.master" >
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+      <Property Name="ContentTypeId" Value="0x010105" />
+      <Property Name="UIVersion" Value="15" />
+    </File>
+    <File Path="MasterPage\StarterBranding\logo.png" Url="StarterBranding/logo.png" />
+    <File Path="MasterPage\StarterBranding\favicon.ico" Url="StarterBranding/favicon.ico" />
+    <File Path="MasterPage\StarterBranding\style.css" Url="StarterBranding/style.css" />
+    <File Path="MasterPage\StarterBranding\custombanner.png" Url="StarterBranding/custombanner.png" />
+  </Module>
+</Elements>

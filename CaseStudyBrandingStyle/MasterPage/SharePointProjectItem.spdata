@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MasterPage\" Type="ElementManifest" />
+    <ProjectItemFile Source="StarterBranding\logo.png" Target="MasterPage\StarterBranding\" Type="ElementFile" />
+    <ProjectItemFile Source="StarterBranding\style.css" Target="MasterPage\StarterBranding\" Type="ElementFile" />
+    <ProjectItemFile Source="StarterBranding\favicon.ico" Target="MasterPage\StarterBranding\" Type="ElementFile" />
+    <ProjectItemFile Source="Starter Team.master" Target="MasterPage\" Type="ElementFile" />
+    <ProjectItemFile Source="StarterBranding\custombanner.png" Target="MasterPage\StarterBranding\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

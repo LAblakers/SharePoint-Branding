@@ -1,0 +1,280 @@
+﻿/* used by the Starter Publishing master page for fixed width display */
+.customWidth {
+    width: 980px;
+    margin: auto;
+}
+
+/* used to reset the ootb styles on the title row tag in the Starter Collab master page; used for the fullscreen button in SP */
+#s4-titlerow {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+/*Middle Nav Bar*/
+.ms-cui-topBar2 {
+    /*[ReplaceColor(themeColor:"TopBarBackground")]*/
+    border-bottom: 1px solid rgba( 239,239,239,0.78 );
+    height: 34px;
+    background-color: red;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+/*Microsoft Office 365 button Color of box*/
+.o365cs-base .o365cs-navMenuButton {
+    color: #FFFFFF;
+    background-color: white;
+}
+
+
+/*Microsoft Office 365 button Color of dots inside box*/
+.wf-o365-waffle:before {
+    content: '\e11f';
+    color: red;
+}
+
+/*Top Nav bar sharepoint & sites color*/
+.o365cs-nav-header16 .o365cs-nav-o365Branding {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #fff;
+    border-left-color: rgba(255,255,255,0.3);
+    height: 50px;
+    background-color: red;
+}
+
+/*Top Nav Bar Red piece next to sharepoint & sites color */
+.o365cs-nav-header16 .o365cs-nav-leftAlign {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: red;
+}
+
+/*Top Nav Bar middle piece color*/
+.o365cs-nav-header16 .o365cs-nav-centerAlign {
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: red;
+}
+
+/*Top Nav Bar right piece color*/
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button {
+    border-left: 1px solid #fff;
+    border-left-color: rgba(255,255,255,0.3);
+    background-color: red;
+}
+
+/*Top Nav bar Sharepoint installer dropdown button */
+.wf-o365-downcarat:before {
+    content: '\e052';
+    color: white;
+}
+/*Browse button nav bar color*/
+.ms-browseTab.ms-cui-tt-s > .ms-cui-tt-a > .ms-cui-tt-span {
+    color: #fff !important;
+    font-family: Rockwell;
+}
+
+/*Page button nav bar color*/
+.ms-cui-tt-a > .ms-cui-tt-span {
+    color: #fff !important;
+    text-transform: uppercase;
+    border-top-width: 0px;
+    font-family: Rockwell;
+}
+
+/*Share Follow Edit buttons middle Nav bar*/
+.ms-promotedActionButton-text {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8pt;
+    font-family: Rockwell;
+}
+
+/*Top Nav Bar SharePoint & Sites Text*/
+.o365cs-nav-header16 .o365cs-nav-brandingText {
+    line-height: 46px;
+    display: inline-block;
+    font-family: rockwell;
+    font-size: 22px;
+    -webkit-font-smoothing: antialiased;
+}
+/*Top Nav Bar SharePoint Installer text*/
+.o365cs-me-tile-nophoto-username {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-family: rockwell;
+}
+
+img {
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+/*Search box text color*/
+.ms-helperText, input.ms-helperText {
+    color: red;
+}
+
+/*WebPage Body*/
+#s4-workspace {
+    background-color: gainsboro;
+}
+
+/*Side Links menu*/
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item, .ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenuEdit, .ms-core-listMenu-heading, .ms-tv-header {
+    font-size: 31px;
+    vertical-align: middle;
+    color: red;
+    font-family: rockwell;
+    
+    background-color: gainsboro;
+}
+
+
+.menu-item-text {
+    color: red;
+}
+
+
+/*Search this site & newsfeed text boxes*/
+.ms-helperText, input.ms-helperText {
+    color: red;
+    background-color: white;
+}
+
+/*Side Nav bar Right border*/
+.root ms-core-listMenu-root static {
+    border-right: 1px solid white;
+}
+
+
+
+/*Page Title*/
+.ms-core-pageTitle {
+    font-size: 120px;
+    white-space: nowrap;
+    font-family: rockwell;
+    border-bottom:3px solid black;
+}
+
+/*Search Box*/
+#SearchBox {
+    
+}
+
+/*Search Box Logo Magnify Glass*/
+.ms-srch-sb-searchImg {
+    left: -35px;
+    top: -57px;
+    position: absolute;
+    background-color: red;
+}
+
+/*Newsfeed button*/
+.ms-microfeed-siteFeedTitleLabel.ms-microfeed-siteFeedTitleLabel {
+    text-decoration: none;
+    color: red;
+    font-size: 50px;
+    font-family:Rockwell;
+}
+
+/*/*Add Upload New Document Buttons*/
+.ms-listview-glyph-withmargin {
+    font-family: "SPO365Icons";
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    color: red;
+}
+
+
+/* New Upload Sync Share button Text*/
+.ms-qcb-button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    padding: 3px 20px 5px 10px;
+    margin: 0px;
+    min-width: 0px;
+    text-align: left;
+    position: relative;
+    font-family: rockwell;
+}
+
+/*Get Started With Your Site Text*/
+.ms-promlink-parttitle.ms-promlink-parttitle {
+    padding-right: 10px;
+    display: inline;
+    color: red;
+    font-size: x-large;
+    font-family: rockwell;
+}
+
+/*Hide Site Link & edit links under Page Banner*/
+.ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li, .ms-core-listMenu-horizontalBox .ms-core-listMenu-item, .ms-core-listMenu-horizontalBox > ul > li > table {
+    display: inline-block;
+    visibility: hidden;
+
+}
+
+/*footer*/
+.footer{
+    width:2000px;
+    height:40px;
+    text-align:center;
+    font-family:Rockwell;
+    font-size:20px;
+    vertical-align:middle;
+    background-color:red;    
+    color:white;
+    border-top:2px solid white;
+    padding-bottom:20px;
+}
+
+/*Add Documents Title Text*/
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+    color: black;
+    font-family: rockwell;
+    overflow: hidden;
+    font-size: 40px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*Invite & Start Conversation link buttons*/
+a, .ms-link:visited {
+    color: red;
+    text-decoration: none;
+}
+
+/*Body webparts text, its pretty quiet in here newsfeed text, & New,Upload, Sync Text*/
+body, .ms-core-defaultFont, .js-callout-body {
+    color: blue;
+    font-family: rockwell;
+    font-size: medium;
+}
+
+/*Web part link colors(the original blue ones)*/
+.ms-tileview-tile-detailsBox {
+    color: white;
+    background-color: red;
+    position: absolute;
+}
+
+/*Search Box Border*/
+.ms-srch-sb-border {
+    border: 10px solid dodgerblue;
+}
